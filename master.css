@@ -1,0 +1,118 @@
+body{
+    background-color: #364156;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0b6477;
+  }
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #14919b;
+  }
+  .active {
+    background-color: #14919b;
+  }
+  p{
+    color: white;
+    font-size: 50px;
+    margin-left: 8%;
+    margin-top: -2%;
+      }
+      h1 {
+        color: white;
+         font-size: 30px;
+         margin-left: 3%;
+        }
+        .home{
+            margin-left: 73%;
+            margin-top: -28%;
+           }
+           .about{
+            margin-left: 44%;
+            margin-top: 1%;
+           }
+           .skills{
+            margin-left: 47%;
+            margin-top: 1%;
+           }
+           h3{
+            text-align: center;
+            font-size: 35px;
+            color: white;
+           }
+           .skill{
+                margin-left: 40%;
+            }
+            button {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                color: white;
+                background-color: #14919b;
+                padding: 1em 2em;
+                border: none;
+                border-radius: .6rem;
+                position: relative;
+                cursor: pointer;
+                overflow: hidden;
+                margin-left: 11%;
+                margin-top: 5%;
+              }
+              
+              button span:not(:nth-child(6)) {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                height: 30px;
+                width: 30px;
+                background-color: #14919b;
+                border-radius: 50%;
+                transition: .6s ease;
+              }
+              
+              button span:nth-child(6) {
+                position: relative;
+              }
+              
+              button span:nth-child(1) {
+                transform: translate(-3.3em, -4em);
+              }
+              
+              button span:nth-child(2) {
+                transform: translate(-6em, 1.3em);
+              }
+              
+              button span:nth-child(3) {
+                transform: translate(-.2em, 1.8em);
+              }
+              
+              button span:nth-child(4) {
+                transform: translate(3.5em, 1.4em);
+              }
+              
+              button span:nth-child(5) {
+                transform: translate(3.5em, -3.8em);
+              }
+              
+              button:hover span:not(:nth-child(6)) {
+                transform: translate(-50%, -50%) scale(4);
+                transition: 1.5s ease;
+              }
+                
+              a{
+                color: white;
+              }
